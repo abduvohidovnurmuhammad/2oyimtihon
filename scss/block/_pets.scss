@@ -1,0 +1,44 @@
+.pets__animals{
+  max-width: 620px;
+}
+.pets__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pets__content-task{
+  max-width: 608px;
+  height: 128px;
+  font-weight: 700;
+font-size: 70px;
+line-height: 64px;
+color: #333333;
+margin-bottom: 29px;
+}
+.content-span{
+  color: #78C0DE;
+}
+.pets__content-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #949494;
+max-width: 495px;
+margin-bottom: 38px;
+}
+.pets__content-link{
+  padding: 16px 48px;
+  background-color: #333333;
+  border-radius: 3px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.pets__container{
+  background-image: url(../../img/greenpet.png);
+  background-repeat: no-repeat;
+  background-position: right 500px;
+  margin-bottom: 66px;
+  flex-wrap: wrap;
+}

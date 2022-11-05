@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 body{
   margin: 0;
-  font-family: 'Barlow', serif;
+  background: #F9F9F9;
 }
 ul,ol{
   list-style: none;
@@ -27,7 +27,7 @@ img{
 }
 
 .container{
-  max-width: 100%;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 20px;
 }

@@ -1,0 +1,122 @@
+.site-header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+}
+.site-header__list-top{
+  display: flex;
+  justify-content:space-between;
+  max-width: 1120px;
+  padding: 12px 0;
+  margin-left: auto;
+}
+.site-header__item-top{
+  display: flex;
+  align-items: center;
+}
+.site-header__top-link{
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-left: 12px;
+}
+.site-header__item-top:nth-child(1)::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../../img/house.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  
+}
+.site-header__top{
+    background-color: #F9F8F8;;
+}
+.site-header__item-top:nth-child(2)::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../../img/phone.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.site-header__top-link:nth-child(2)::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: url(../../img/Ellipsetop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+
+}
+.site-header__top-link:nth-child(3)::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: url(../../img/Ellipsetop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+
+}
+.site-header__item-top:nth-child(3)::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+    // header-bottom
+.site-header__list{
+ 
+  padding: 20px 0;
+}
+.vetimg-block{
+  width: 178px;
+  height: 86px;
+}
+.site-header__bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.site-header__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__link,.site-header__question{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.site-headet__item{
+  padding-top: 10px;
+  margin-left: 50px;
+}
+.site-headet__item:nth-child(1){
+  margin-left: 10px;
+}
+.site-header__question{
+  align-items: center;
+}
+.site-header__question{
+  padding: 27px;
+  background-image: url(../../img/pet.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+
