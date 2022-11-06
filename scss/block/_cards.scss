@@ -1,9 +1,4 @@
 .card__block{
-  width: 100%;
-background-image: url(../../img/bgsection.png);
-background-repeat: no-repeat;
-  background-position: right ;
-background-color: #333333;
 display: flex;
  align-items: center;
  margin-bottom: 247px;
@@ -16,8 +11,13 @@ display: flex;
 .card__form{
  display: flex;
  flex-direction: column;
- margin-left: 100px;
- 
+ width: 100%;
+ background-image: url(../../img/bgsection.png);
+ background-repeat: no-repeat;
+   background-position: right ;
+ background-color: #333333;
+ height: 652px;
+ padding: 62px 0px 62px 62px;
 }
 .card__input{
   max-width: 375px;
@@ -41,6 +41,7 @@ line-height: 62px;
 color: #FFFFFF;
 max-width: 360px;
 margin-bottom: 14px;
+
 }
 .card__form-text{
   font-weight: 400;
@@ -53,12 +54,14 @@ margin-bottom: 29px;
 .card_input-text{
   padding: 17px 0px 86px 22px;
 margin-bottom: 30px;
+width: 375px;
 &::placeholder{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   align-items: center;
   color: #949494; 
+ 
 }
 }
 .btn{
@@ -82,8 +85,52 @@ transition-timing-function: ease;
   color: #000000;
 }
 }
-@media screen and (max-width:1300px) {
-  .card__block{
-    display: none;
+@media only screen and (max-width:1200px) {
+ .card__block{
+  flex-direction: column;
+ }
+  .card__google{
+    width: 100%;
+
   }
+}
+@media only screen and (max-width:893px) {
+    .card__form{
+      background-image: none;
+      background-color: #333333;
+      height: 580px;
+      padding: 62px 0px 62px 62px;
+      
+    }
+    .card__block{
+      text-align: center;
+    }
+}
+@media only screen and (max-width:515px) {
+  .card__form-task{
+    font-size: 36px;
+    line-height: 62px;
+  }
+  .card__form-text{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+    .card__input{
+      max-width: 250px;
+      padding: 16px 0px 13px 22px;
+      background: #FFFFFF;
+      border-radius: 0px;
+      margin-bottom: 14px;
+}
+.card_input-text{
+  max-width: 219px;
+  padding: 16px 0px 13px 22px;
+}
+.card__form{
+  padding: 0 ;
+  align-items: center;
+  
+  text-align: center;
+}
 }
