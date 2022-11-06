@@ -1261,7 +1261,7 @@ img {
   }
 }
 @media screen and (max-width: 1300px) {
-  .site-footer, .card__block {
+  .site-footer, .card__block, .articles {
     display: none;
   }
 }
