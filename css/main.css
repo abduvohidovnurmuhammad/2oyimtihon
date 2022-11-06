@@ -1241,9 +1241,40 @@ img {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1310px) {
-  .Useful__container, .card__block, .site-footer {
+@media only screen and (max-width: 1300px) {
+  .useful__links::after {
     display: none;
+  }
+}
+@media only screen and (max-width: 804px) {
+  .Useful__container {
+    padding: 0;
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 604px) {
+  .Useful__container {
+    text-align: center;
+  }
+  .useful__input {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .useful__text {
+    font-size: 30px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .useful__input {
+    padding: 9px 73px 6px 11px;
+  }
+  .useful__btn {
+    padding: 8px 26px;
+  }
+  .Useful__container {
+    text-align: start;
   }
 }
 .card__block {
