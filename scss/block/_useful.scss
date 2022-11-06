@@ -152,6 +152,9 @@ margin-bottom: 15px;
 .articles__task{
   margin-bottom: 10px;
 }
+.footer-burgermenu{
+  display: none;
+}
 @media only screen and (max-width:1300px) {
   .useful__links{
     &::after{
@@ -185,7 +188,6 @@ margin-bottom: 15px;
   }
 
 }
-  
 
 @media only screen and (max-width:804px) {
   .Useful__container{
@@ -210,12 +212,6 @@ margin-bottom: 15px;
   }
   .useful__input{
     margin-bottom: 20px;
-  }
-
-}
-@media screen and (max-width:1300px) {
-  .site-footer{
-    display: none;
   }
 
 }
