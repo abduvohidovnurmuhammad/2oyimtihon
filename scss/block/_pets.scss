@@ -8,7 +8,6 @@
 }
 .pets__content-task{
   max-width: 608px;
-  height: 128px;
   font-weight: 700;
 font-size: 70px;
 line-height: 64px;
@@ -34,6 +33,13 @@ margin-bottom: 38px;
 font-size: 16px;
 line-height: 21px;
 color: #FFFFFF;
+transition-duration: 1s;
+transition-property: all;
+transition-timing-function: ease;
+&:hover{
+background-color: #2828dd;
+border-radius: 10%;
+}
 }
 .pets__container{
   background-image: url(../../img/greenpet.png);
@@ -41,4 +47,33 @@ color: #FFFFFF;
   background-position: right 500px;
   margin-bottom: 66px;
   flex-wrap: wrap;
+}
+@media only screen and (max-width:1268px) {
+  .pets__container{
+    flex-direction: column;
+    background-image: none;
+  }
+  .pets__content-block{
+    text-align: center;
+  }
+  .pets__content-text{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width:700px) {
+  .pets__animals{
+    max-width: 400px;
+  }
+  .pets__content-task{
+    text-align: center;
+    font-size: 42px;
+    line-height: 30px; 
+  }
+}
+@media only screen and (max-width:481px) {
+  .pets__content-task{
+    font-size: 50px;
+    line-height: 40px; 
+  }
 }

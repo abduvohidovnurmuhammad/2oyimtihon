@@ -1,5 +1,89 @@
-.card__container{
-  background-image: url(../../img/bgsection.png);
-  background-repeat: no-repeat;
+.card__block{
+  width: 100%;
+background-image: url(../../img/bgsection.png);
+background-repeat: no-repeat;
+  background-position: right ;
+background-color: #333333;
+display: flex;
+ align-items: center;
+ margin-bottom: 247px;
+}
+.card__google{
+  max-width: 462px;
+  height: 652px;
+  
+}
+.card__form{
+ display: flex;
+ flex-direction: column;
+ margin-left: 100px;
+ 
+}
+.card__input{
+  max-width: 375px;
+  padding: 16px 0px 13px 22px;
+  background: #FFFFFF;
+  border-radius: 0px;
+  margin-bottom: 14px;
+  &::placeholder{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+align-items: center;
 
+color: #949494;
+  }
+}
+.card__form-task{
+  font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: #FFFFFF;
+max-width: 360px;
+margin-bottom: 14px;
+}
+.card__form-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #949494;
+max-width: 334px;
+margin-bottom: 29px;
+}
+.card_input-text{
+  padding: 17px 0px 86px 22px;
+margin-bottom: 30px;
+&::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #949494; 
+}
+}
+.btn{
+  max-width: 226px;
+  background-color: #FFBD54;
+border-radius: 0px;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 15px 50px;
+border: none;
+text-align: start;
+display: inline-block;
+transition-duration: 1s;
+transition-property: all;
+transition-timing-function: ease;
+&:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  color: #000000;
+}
+}
+@media screen and (max-width:1300px) {
+  .card__block{
+    display: none;
+  }
 }
