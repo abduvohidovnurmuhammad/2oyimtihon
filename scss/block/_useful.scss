@@ -18,7 +18,18 @@
 .useful__links{
   align-items: center;
   padding-bottom: 88px;
-
+    &::after{
+      content: "";
+      width: 613px;
+      height: 481px;
+      background-image: url(../../img/kissdog.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+      display: inline-block;
+      top: -108px;
+      position: absolute;
+    } 
   }
 
 .useful__text{
