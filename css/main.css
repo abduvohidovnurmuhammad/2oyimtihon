@@ -1031,6 +1031,9 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .link-block__yellow {
+    margin-bottom: 20px;
+  }
 }
 .Useful__container {
   max-width: 1320px;
@@ -1332,6 +1335,7 @@ img {
   }
   .Useful__container {
     text-align: start;
+    padding-left: 20px;
   }
   .articles__text {
     font-size: 36px;
@@ -1546,7 +1550,7 @@ img {
     margin-bottom: 14px;
   }
   .card_input-text {
-    max-width: 219px;
+    max-width: 250px;
     padding: 16px 0px 13px 22px;
   }
   .card__form {
